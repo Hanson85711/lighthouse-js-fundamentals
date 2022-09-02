@@ -28,3 +28,20 @@ console.log("Now you're ready to go outside!");
 if (isCitizen && age > 18) {
   console.log("You are eligible to vote.");
 }
+
+const whichSchool  = function (age) {
+  if (age < 13 ) {
+    console.log("Elementary School");
+  } else if (age >= 13 && age <= 18) {
+    console.log("Secondary School");
+  } else {
+    console.log("Lighthouse Labs");
+  }
+}
+
+console.log("I am 12. Which school?");
+console.log(whichSchool(12));
+console.log("I am 25. Which school?");
+console.log(whichSchool(25));
+console.log("I am 16. Which school?");
+console.log(whichSchool(16));
